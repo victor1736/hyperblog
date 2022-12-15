@@ -53,3 +53,15 @@ git reset HEAD: Este es el comando para sacar archivos del área
   últimos cambios de estos archivos no se envíen al último commit,
    a menos que cambiemos de opinión y los incluyamos de nuevo en 
    staging con git add, por supuesto.
+
+   pasos para subir los datos a la nube
+   git remote  add origin utilizar
+   git remote
+   git remote -v
+   git pull origin main --allow-unrelated-histories
+   git push origin master:main
+   
+
+   comandos de llave ssh
+   ssh-keygen -t rsa -b 4096 -C "victoralfonsofernandezhoyos@gmail.com"
+   
